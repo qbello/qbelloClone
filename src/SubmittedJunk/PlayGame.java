@@ -85,9 +85,9 @@ public class PlayGame
 
                 // ***TEST***
 //                System.out.println("Turns: " + turns);
-//                System.out.println("TEST: Player hit lists:\n" + playerOneHits + "\n" + playerTwoHits);
-//                System.out.println("Player Two hits: " + (17 - playerOneHits.size()));
-//                System.out.println("Player One hits: " + (17 - playerTwoHits.size()));
+//                System.out.println("TEST: SubmittedJunk.Player hit lists:\n" + playerOneHits + "\n" + playerTwoHits);
+//                System.out.println("SubmittedJunk.Player Two hits: " + (17 - playerOneHits.size()));
+//                System.out.println("SubmittedJunk.Player One hits: " + (17 - playerTwoHits.size()));
             }
 
             // Prep the winner's message
@@ -113,9 +113,9 @@ public class PlayGame
             while (playerOneHits.size() > 0 && playerTwoHits.size() > 0)
             {
                 // ask for letter then number, then check if that's a hit
-                System.out.println("Player 1 - Enter a row letter from A - J");
+                System.out.println("SubmittedJunk.Player 1 - Enter a row letter from A - J");
                 String playerOneGuess = fromKeyboard.nextLine();
-                System.out.println("Player 1 - Enter a column number from 1 - 14");
+                System.out.println("SubmittedJunk.Player 1 - Enter a column number from 1 - 14");
                 playerOneGuess += fromKeyboard.nextLine();
 
                 // if it's a hit on player two
@@ -131,9 +131,9 @@ public class PlayGame
                 if (playerTwoHits.size() > 0)
                 {
                     // get a guess from him
-                    System.out.println("Player 2 - Enter a row letter from A - J");
+                    System.out.println("SubmittedJunk.Player 2 - Enter a row letter from A - J");
                     String playerTwoGuess = fromKeyboard.nextLine();
-                    System.out.println("Player 2 - Enter a column number from 1 - 14");
+                    System.out.println("SubmittedJunk.Player 2 - Enter a column number from 1 - 14");
                     playerTwoGuess += fromKeyboard.nextLine();
 
                     // if it's a hit on player one
@@ -151,9 +151,9 @@ public class PlayGame
 
                 // ***TEST***
 //                System.out.println("Turns: " + turns);
-//                System.out.println("TEST: Player hit lists:\n" + playerOneHits + "\n" + playerTwoHits);
-//                System.out.println("Player Two hits: " + (17 - playerOneHits.size()));
-//                System.out.println("Player One hits: " + (17 - playerTwoHits.size()));
+//                System.out.println("TEST: SubmittedJunk.Player hit lists:\n" + playerOneHits + "\n" + playerTwoHits);
+//                System.out.println("SubmittedJunk.Player Two hits: " + (17 - playerOneHits.size()));
+//                System.out.println("SubmittedJunk.Player One hits: " + (17 - playerTwoHits.size()));
             }
 
             // prep winner string

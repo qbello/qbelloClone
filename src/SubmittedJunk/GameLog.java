@@ -30,13 +30,13 @@ public class GameLog
     public String toString()
     {
         if (winningPlayer == 1)
-            return "Battleship Game Log:\nWinning Player: Player " + winningPlayer + "\nHits: 17 - " + losingPlayerHits
-                    + "\nNumber of Turns To Win: " + numTurns + "\nPlayer 1 Board Pattern: " + boardPatternOne
-                    + "\nPlayer 2 Board Pattern: " + boardPatternTwo;
+            return "Battleship Game Log:\nWinning SubmittedJunk.Player: SubmittedJunk.Player " + winningPlayer + "\nHits: 17 - " + losingPlayerHits
+                    + "\nNumber of Turns To Win: " + numTurns + "\nSubmittedJunk.Player 1 Board Pattern: " + boardPatternOne
+                    + "\nSubmittedJunk.Player 2 Board Pattern: " + boardPatternTwo;
         else
-            return "Battleship Game Log:\nWinning Player: Player " + winningPlayer + "\nHits: " + losingPlayerHits
-                    + " - 17\nNumber of Turns To Win: " + numTurns + "\nPlayer 1 Board Pattern: " + boardPatternOne
-                    + "\nPlayer 2 Board Pattern: " + boardPatternTwo;
+            return "Battleship Game Log:\nWinning SubmittedJunk.Player: SubmittedJunk.Player " + winningPlayer + "\nHits: " + losingPlayerHits
+                    + " - 17\nNumber of Turns To Win: " + numTurns + "\nSubmittedJunk.Player 1 Board Pattern: " + boardPatternOne
+                    + "\nSubmittedJunk.Player 2 Board Pattern: " + boardPatternTwo;
     }
 
 }
