@@ -15,7 +15,7 @@ import java.util.Scanner;
 
 //  @#@# SOCKET NUMBER: 123 #@#@ \\
 
-public class CrazyFunGameClient
+public class ButtonClient
 {
     public static void main(String[] args)
     {
@@ -24,7 +24,7 @@ public class CrazyFunGameClient
                 "Welcome", JOptionPane.INFORMATION_MESSAGE);
         Scanner fromKeyboard = new Scanner(System.in);
         int totalSeshClicks = 0;
-        CrazyFunGameClient thisGame = new CrazyFunGameClient();
+        ButtonClient thisGame = new ButtonClient();
 
         // step 2
         Pair<Boolean, Socket> clientPair = thisGame.getPortInfo();

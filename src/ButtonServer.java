@@ -17,7 +17,7 @@ import java.util.Scanner;
 
 //  @#@# SOCKET NUMBER: 123 #@#@ \\
 
-public class CrazyFunGameServer
+public class ButtonServer
 {
     public static void main(String[] args)
     {
