@@ -45,8 +45,8 @@ public class ButtonClient
                 reader = new BufferedReader(new InputStreamReader(socket.getInputStream()));
                 writer = new PrintWriter(socket.getOutputStream());
                 System.out.println("Step 4");
-                reply = JOptionPane.showConfirmDialog(null, "Are you ready to play?" + "\nPast Players: " + reader.readLine(),
-                        "Ready?", JOptionPane.YES_NO_OPTION); // yes: 0    no: 1
+                reply = JOptionPane.showConfirmDialog(null, "Are you ready to play?" +
+                        "\nPast Players: " + reader.readLine(), "Ready?", JOptionPane.YES_NO_OPTION);
             } catch (IOException e)
             {
                 e.printStackTrace();
@@ -114,8 +114,7 @@ public class ButtonClient
                 clientPair = thisGame.getPortInfo();
                 socket = clientPair.getValue();
                 isClear = !clientPair.getKey();
-            }
-            else
+            } else
                 isClear = false;
 
             // Below here is all the learning/ testing I did

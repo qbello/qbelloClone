@@ -80,7 +80,7 @@ public class ButtonServer
                 writer.println();
                 writer.flush();
             }
-        } catch(IOException e)
+        } catch (IOException e)
         {
             e.printStackTrace();
         }
